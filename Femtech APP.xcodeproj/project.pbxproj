@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		657B67262403104600BB43DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657B67252403104600BB43DA /* AppDelegate.swift */; };
+		657B67282403104600BB43DA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657B67272403104600BB43DA /* SceneDelegate.swift */; };
+		657B672A2403104600BB43DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657B67292403104600BB43DA /* ViewController.swift */; };
+		657B672D2403104600BB43DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 657B672B2403104600BB43DA /* Main.storyboard */; };
+		657B672F2403104700BB43DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 657B672E2403104700BB43DA /* Assets.xcassets */; };
+		657B67322403104700BB43DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 657B67302403104700BB43DA /* LaunchScreen.storyboard */; };
+		657B673D2403104800BB43DA /* Femtech_APPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657B673C2403104800BB43DA /* Femtech_APPTests.swift */; };
+		657B67482403104800BB43DA /* Femtech_APPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657B67472403104800BB43DA /* Femtech_APPUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		657B67392403104800BB43DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 657B671A2403104600BB43DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 657B67212403104600BB43DA;
+			remoteInfo = "Femtech APP";
+		};
+		657B67442403104800BB43DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 657B671A2403104600BB43DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 657B67212403104600BB43DA;
+			remoteInfo = "Femtech APP";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		657B67222403104600BB43DA /* Femtech APP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Femtech APP.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		657B67252403104600BB43DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		657B67272403104600BB43DA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		657B67292403104600BB43DA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		657B672C2403104600BB43DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		657B672E2403104700BB43DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		657B67312403104700BB43DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		657B67332403104700BB43DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		657B67382403104800BB43DA /* Femtech APPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Femtech APPTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		657B673C2403104800BB43DA /* Femtech_APPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Femtech_APPTests.swift; sourceTree = "<group>"; };
+		657B673E2403104800BB43DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		657B67432403104800BB43DA /* Femtech APPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Femtech APPUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		657B67472403104800BB43DA /* Femtech_APPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Femtech_APPUITests.swift; sourceTree = "<group>"; };
+		657B67492403104800BB43DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		657B671F2403104600BB43DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		657B67352403104800BB43DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		657B67402403104800BB43DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		657B67192403104600BB43DA = {
+			isa = PBXGroup;
+			children = (
+				657B67242403104600BB43DA /* Femtech APP */,
+				657B673B2403104800BB43DA /* Femtech APPTests */,
+				657B67462403104800BB43DA /* Femtech APPUITests */,
+				657B67232403104600BB43DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		657B67232403104600BB43DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				657B67222403104600BB43DA /* Femtech APP.app */,
+				657B67382403104800BB43DA /* Femtech APPTests.xctest */,
+				657B67432403104800BB43DA /* Femtech APPUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		657B67242403104600BB43DA /* Femtech APP */ = {
+			isa = PBXGroup;
+			children = (
+				657B67252403104600BB43DA /* AppDelegate.swift */,
+				657B67272403104600BB43DA /* SceneDelegate.swift */,
+				657B67292403104600BB43DA /* ViewController.swift */,
+				657B672B2403104600BB43DA /* Main.storyboard */,
+				657B672E2403104700BB43DA /* Assets.xcassets */,
+				657B67302403104700BB43DA /* LaunchScreen.storyboard */,
+				657B67332403104700BB43DA /* Info.plist */,
+			);
+			path = "Femtech APP";
+			sourceTree = "<group>";
+		};
+		657B673B2403104800BB43DA /* Femtech APPTests */ = {
+			isa = PBXGroup;
+			children = (
+				657B673C2403104800BB43DA /* Femtech_APPTests.swift */,
+				657B673E2403104800BB43DA /* Info.plist */,
+			);
+			path = "Femtech APPTests";
+			sourceTree = "<group>";
+		};
+		657B67462403104800BB43DA /* Femtech APPUITests */ = {
+			isa = PBXGroup;
+			children = (
+				657B67472403104800BB43DA /* Femtech_APPUITests.swift */,
+				657B67492403104800BB43DA /* Info.plist */,
+			);
+			path = "Femtech APPUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		657B67212403104600BB43DA /* Femtech APP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 657B674C2403104800BB43DA /* Build configuration list for PBXNativeTarget "Femtech APP" */;
+			buildPhases = (
+				657B671E2403104600BB43DA /* Sources */,
+				657B671F2403104600BB43DA /* Frameworks */,
+				657B67202403104600BB43DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Femtech APP";
+			productName = "Femtech APP";
+			productReference = 657B67222403104600BB43DA /* Femtech APP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		657B67372403104800BB43DA /* Femtech APPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 657B674F2403104800BB43DA /* Build configuration list for PBXNativeTarget "Femtech APPTests" */;
+			buildPhases = (
+				657B67342403104800BB43DA /* Sources */,
+				657B67352403104800BB43DA /* Frameworks */,
+				657B67362403104800BB43DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				657B673A2403104800BB43DA /* PBXTargetDependency */,
+			);
+			name = "Femtech APPTests";
+			productName = "Femtech APPTests";
+			productReference = 657B67382403104800BB43DA /* Femtech APPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		657B67422403104800BB43DA /* Femtech APPUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 657B67522403104800BB43DA /* Build configuration list for PBXNativeTarget "Femtech APPUITests" */;
+			buildPhases = (
+				657B673F2403104800BB43DA /* Sources */,
+				657B67402403104800BB43DA /* Frameworks */,
+				657B67412403104800BB43DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				657B67452403104800BB43DA /* PBXTargetDependency */,
+			);
+			name = "Femtech APPUITests";
+			productName = "Femtech APPUITests";
+			productReference = 657B67432403104800BB43DA /* Femtech APPUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		657B671A2403104600BB43DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = Danji;
+				TargetAttributes = {
+					657B67212403104600BB43DA = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					657B67372403104800BB43DA = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 657B67212403104600BB43DA;
+					};
+					657B67422403104800BB43DA = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 657B67212403104600BB43DA;
+					};
+				};
+			};
+			buildConfigurationList = 657B671D2403104600BB43DA /* Build configuration list for PBXProject "Femtech APP" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 657B67192403104600BB43DA;
+			productRefGroup = 657B67232403104600BB43DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				657B67212403104600BB43DA /* Femtech APP */,
+				657B67372403104800BB43DA /* Femtech APPTests */,
+				657B67422403104800BB43DA /* Femtech APPUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		657B67202403104600BB43DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				657B67322403104700BB43DA /* LaunchScreen.storyboard in Resources */,
+				657B672F2403104700BB43DA /* Assets.xcassets in Resources */,
+				657B672D2403104600BB43DA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		657B67362403104800BB43DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		657B67412403104800BB43DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		657B671E2403104600BB43DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				657B672A2403104600BB43DA /* ViewController.swift in Sources */,
+				657B67262403104600BB43DA /* AppDelegate.swift in Sources */,
+				657B67282403104600BB43DA /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		657B67342403104800BB43DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				657B673D2403104800BB43DA /* Femtech_APPTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		657B673F2403104800BB43DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				657B67482403104800BB43DA /* Femtech_APPUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		657B673A2403104800BB43DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 657B67212403104600BB43DA /* Femtech APP */;
+			targetProxy = 657B67392403104800BB43DA /* PBXContainerItemProxy */;
+		};
+		657B67452403104800BB43DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 657B67212403104600BB43DA /* Femtech APP */;
+			targetProxy = 657B67442403104800BB43DA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		657B672B2403104600BB43DA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				657B672C2403104600BB43DA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		657B67302403104700BB43DA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				657B67312403104700BB43DA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		657B674A2403104800BB43DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		657B674B2403104800BB43DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		657B674D2403104800BB43DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Femtech APP/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-.Femtech-APP";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		657B674E2403104800BB43DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Femtech APP/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-.Femtech-APP";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		657B67502403104800BB43DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Femtech APPTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-.Femtech-APPTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Femtech APP.app/Femtech APP";
+			};
+			name = Debug;
+		};
+		657B67512403104800BB43DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Femtech APPTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-.Femtech-APPTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Femtech APP.app/Femtech APP";
+			};
+			name = Release;
+		};
+		657B67532403104800BB43DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Femtech APPUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-.Femtech-APPUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Femtech APP";
+			};
+			name = Debug;
+		};
+		657B67542403104800BB43DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Femtech APPUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-.Femtech-APPUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Femtech APP";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		657B671D2403104600BB43DA /* Build configuration list for PBXProject "Femtech APP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				657B674A2403104800BB43DA /* Debug */,
+				657B674B2403104800BB43DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		657B674C2403104800BB43DA /* Build configuration list for PBXNativeTarget "Femtech APP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				657B674D2403104800BB43DA /* Debug */,
+				657B674E2403104800BB43DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		657B674F2403104800BB43DA /* Build configuration list for PBXNativeTarget "Femtech APPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				657B67502403104800BB43DA /* Debug */,
+				657B67512403104800BB43DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		657B67522403104800BB43DA /* Build configuration list for PBXNativeTarget "Femtech APPUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				657B67532403104800BB43DA /* Debug */,
+				657B67542403104800BB43DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 657B671A2403104600BB43DA /* Project object */;
+}
