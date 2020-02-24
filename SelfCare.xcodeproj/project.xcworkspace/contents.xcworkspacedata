@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Femtech APP.xcodeproj">
+      location = "self:/Users/daniel/Downloads/SelfCare/SelfCare.xcodeproj">
    </FileRef>
 </Workspace>

@@ -15,6 +15,14 @@
 		657B67322403104700BB43DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 657B67302403104700BB43DA /* LaunchScreen.storyboard */; };
 		657B673D2403104800BB43DA /* Femtech_APPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657B673C2403104800BB43DA /* Femtech_APPTests.swift */; };
 		657B67482403104800BB43DA /* Femtech_APPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657B67472403104800BB43DA /* Femtech_APPUITests.swift */; };
+		657B67562403137500BB43DA /* RoundedCornerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657B67552403137500BB43DA /* RoundedCornerView.swift */; };
+		657B675824031BC800BB43DA /* FiveMinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657B675724031BC800BB43DA /* FiveMinViewController.swift */; };
+		657B675C2403250100BB43DA /* SelfCare Logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 657B675B2403250100BB43DA /* SelfCare Logo.jpg */; };
+		657B675E240325C900BB43DA /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657B675D240325C900BB43DA /* HomePageViewController.swift */; };
+		657B67602403421300BB43DA /* CompleteTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657B675F2403421300BB43DA /* CompleteTaskViewController.swift */; };
+		657B67642403459A00BB43DA /* drink water.png in Resources */ = {isa = PBXBuildFile; fileRef = 657B67632403459A00BB43DA /* drink water.png */; };
+		657B67662403521000BB43DA /* Calendar.png in Resources */ = {isa = PBXBuildFile; fileRef = 657B67652403521000BB43DA /* Calendar.png */; };
+		657B676824035C0B00BB43DA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 657B676724035C0B00BB43DA /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		657B67222403104600BB43DA /* Femtech APP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Femtech APP.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		657B67222403104600BB43DA /* SelfCare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SelfCare.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		657B67252403104600BB43DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		657B67272403104600BB43DA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		657B67292403104600BB43DA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -43,12 +51,20 @@
 		657B672E2403104700BB43DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		657B67312403104700BB43DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		657B67332403104700BB43DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		657B67382403104800BB43DA /* Femtech APPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Femtech APPTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		657B67382403104800BB43DA /* SelfCareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SelfCareTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		657B673C2403104800BB43DA /* Femtech_APPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Femtech_APPTests.swift; sourceTree = "<group>"; };
 		657B673E2403104800BB43DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		657B67432403104800BB43DA /* Femtech APPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Femtech APPUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		657B67432403104800BB43DA /* SelfCareUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SelfCareUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		657B67472403104800BB43DA /* Femtech_APPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Femtech_APPUITests.swift; sourceTree = "<group>"; };
 		657B67492403104800BB43DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		657B67552403137500BB43DA /* RoundedCornerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCornerView.swift; sourceTree = "<group>"; };
+		657B675724031BC800BB43DA /* FiveMinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiveMinViewController.swift; sourceTree = "<group>"; };
+		657B675B2403250100BB43DA /* SelfCare Logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "SelfCare Logo.jpg"; path = "../../SelfCare Logo.jpg"; sourceTree = "<group>"; };
+		657B675D240325C900BB43DA /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
+		657B675F2403421300BB43DA /* CompleteTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteTaskViewController.swift; sourceTree = "<group>"; };
+		657B67632403459A00BB43DA /* drink water.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "drink water.png"; path = "../../drink water.png"; sourceTree = "<group>"; };
+		657B67652403521000BB43DA /* Calendar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Calendar.png; path = ../../Calendar.png; sourceTree = "<group>"; };
+		657B676724035C0B00BB43DA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +95,8 @@
 		657B67192403104600BB43DA = {
 			isa = PBXGroup;
 			children = (
-				657B67242403104600BB43DA /* Femtech APP */,
+				657B676724035C0B00BB43DA /* Default-568h@2x.png */,
+				657B67242403104600BB43DA /* FemTech APP */,
 				657B673B2403104800BB43DA /* Femtech APPTests */,
 				657B67462403104800BB43DA /* Femtech APPUITests */,
 				657B67232403104600BB43DA /* Products */,
@@ -89,25 +106,32 @@
 		657B67232403104600BB43DA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				657B67222403104600BB43DA /* Femtech APP.app */,
-				657B67382403104800BB43DA /* Femtech APPTests.xctest */,
-				657B67432403104800BB43DA /* Femtech APPUITests.xctest */,
+				657B67222403104600BB43DA /* SelfCare.app */,
+				657B67382403104800BB43DA /* SelfCareTests.xctest */,
+				657B67432403104800BB43DA /* SelfCareUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		657B67242403104600BB43DA /* Femtech APP */ = {
+		657B67242403104600BB43DA /* FemTech APP */ = {
 			isa = PBXGroup;
 			children = (
+				657B67652403521000BB43DA /* Calendar.png */,
+				657B67632403459A00BB43DA /* drink water.png */,
+				657B675B2403250100BB43DA /* SelfCare Logo.jpg */,
 				657B67252403104600BB43DA /* AppDelegate.swift */,
 				657B67272403104600BB43DA /* SceneDelegate.swift */,
+				657B675724031BC800BB43DA /* FiveMinViewController.swift */,
 				657B67292403104600BB43DA /* ViewController.swift */,
+				657B675D240325C900BB43DA /* HomePageViewController.swift */,
 				657B672B2403104600BB43DA /* Main.storyboard */,
+				657B675F2403421300BB43DA /* CompleteTaskViewController.swift */,
 				657B672E2403104700BB43DA /* Assets.xcassets */,
 				657B67302403104700BB43DA /* LaunchScreen.storyboard */,
+				657B67552403137500BB43DA /* RoundedCornerView.swift */,
 				657B67332403104700BB43DA /* Info.plist */,
 			);
-			path = "Femtech APP";
+			path = "FemTech APP";
 			sourceTree = "<group>";
 		};
 		657B673B2403104800BB43DA /* Femtech APPTests */ = {
@@ -131,9 +155,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		657B67212403104600BB43DA /* Femtech APP */ = {
+		657B67212403104600BB43DA /* SelfCare */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 657B674C2403104800BB43DA /* Build configuration list for PBXNativeTarget "Femtech APP" */;
+			buildConfigurationList = 657B674C2403104800BB43DA /* Build configuration list for PBXNativeTarget "SelfCare" */;
 			buildPhases = (
 				657B671E2403104600BB43DA /* Sources */,
 				657B671F2403104600BB43DA /* Frameworks */,
@@ -143,14 +167,14 @@
 			);
 			dependencies = (
 			);
-			name = "Femtech APP";
+			name = SelfCare;
 			productName = "Femtech APP";
-			productReference = 657B67222403104600BB43DA /* Femtech APP.app */;
+			productReference = 657B67222403104600BB43DA /* SelfCare.app */;
 			productType = "com.apple.product-type.application";
 		};
-		657B67372403104800BB43DA /* Femtech APPTests */ = {
+		657B67372403104800BB43DA /* SelfCareTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 657B674F2403104800BB43DA /* Build configuration list for PBXNativeTarget "Femtech APPTests" */;
+			buildConfigurationList = 657B674F2403104800BB43DA /* Build configuration list for PBXNativeTarget "SelfCareTests" */;
 			buildPhases = (
 				657B67342403104800BB43DA /* Sources */,
 				657B67352403104800BB43DA /* Frameworks */,
@@ -161,14 +185,14 @@
 			dependencies = (
 				657B673A2403104800BB43DA /* PBXTargetDependency */,
 			);
-			name = "Femtech APPTests";
+			name = SelfCareTests;
 			productName = "Femtech APPTests";
-			productReference = 657B67382403104800BB43DA /* Femtech APPTests.xctest */;
+			productReference = 657B67382403104800BB43DA /* SelfCareTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		657B67422403104800BB43DA /* Femtech APPUITests */ = {
+		657B67422403104800BB43DA /* SelfCareUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 657B67522403104800BB43DA /* Build configuration list for PBXNativeTarget "Femtech APPUITests" */;
+			buildConfigurationList = 657B67522403104800BB43DA /* Build configuration list for PBXNativeTarget "SelfCareUITests" */;
 			buildPhases = (
 				657B673F2403104800BB43DA /* Sources */,
 				657B67402403104800BB43DA /* Frameworks */,
@@ -179,9 +203,9 @@
 			dependencies = (
 				657B67452403104800BB43DA /* PBXTargetDependency */,
 			);
-			name = "Femtech APPUITests";
+			name = SelfCareUITests;
 			productName = "Femtech APPUITests";
-			productReference = 657B67432403104800BB43DA /* Femtech APPUITests.xctest */;
+			productReference = 657B67432403104800BB43DA /* SelfCareUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -207,7 +231,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 657B671D2403104600BB43DA /* Build configuration list for PBXProject "Femtech APP" */;
+			buildConfigurationList = 657B671D2403104600BB43DA /* Build configuration list for PBXProject "SelfCare" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -220,9 +244,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				657B67212403104600BB43DA /* Femtech APP */,
-				657B67372403104800BB43DA /* Femtech APPTests */,
-				657B67422403104800BB43DA /* Femtech APPUITests */,
+				657B67212403104600BB43DA /* SelfCare */,
+				657B67372403104800BB43DA /* SelfCareTests */,
+				657B67422403104800BB43DA /* SelfCareUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -233,7 +257,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				657B67322403104700BB43DA /* LaunchScreen.storyboard in Resources */,
+				657B67642403459A00BB43DA /* drink water.png in Resources */,
 				657B672F2403104700BB43DA /* Assets.xcassets in Resources */,
+				657B67662403521000BB43DA /* Calendar.png in Resources */,
+				657B675C2403250100BB43DA /* SelfCare Logo.jpg in Resources */,
+				657B676824035C0B00BB43DA /* Default-568h@2x.png in Resources */,
 				657B672D2403104600BB43DA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,7 +289,11 @@
 			files = (
 				657B672A2403104600BB43DA /* ViewController.swift in Sources */,
 				657B67262403104600BB43DA /* AppDelegate.swift in Sources */,
+				657B675E240325C900BB43DA /* HomePageViewController.swift in Sources */,
 				657B67282403104600BB43DA /* SceneDelegate.swift in Sources */,
+				657B675824031BC800BB43DA /* FiveMinViewController.swift in Sources */,
+				657B67562403137500BB43DA /* RoundedCornerView.swift in Sources */,
+				657B67602403421300BB43DA /* CompleteTaskViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,12 +318,12 @@
 /* Begin PBXTargetDependency section */
 		657B673A2403104800BB43DA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 657B67212403104600BB43DA /* Femtech APP */;
+			target = 657B67212403104600BB43DA /* SelfCare */;
 			targetProxy = 657B67392403104800BB43DA /* PBXContainerItemProxy */;
 		};
 		657B67452403104800BB43DA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 657B67212403104600BB43DA /* Femtech APP */;
+			target = 657B67212403104600BB43DA /* SelfCare */;
 			targetProxy = 657B67442403104800BB43DA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -481,7 +513,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Femtech APP.app/Femtech APP";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SelfCare.app/SelfCare";
 			};
 			name = Debug;
 		};
@@ -502,7 +534,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Femtech APP.app/Femtech APP";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SelfCare.app/SelfCare";
 			};
 			name = Release;
 		};
@@ -547,7 +579,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		657B671D2403104600BB43DA /* Build configuration list for PBXProject "Femtech APP" */ = {
+		657B671D2403104600BB43DA /* Build configuration list for PBXProject "SelfCare" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				657B674A2403104800BB43DA /* Debug */,
@@ -556,7 +588,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		657B674C2403104800BB43DA /* Build configuration list for PBXNativeTarget "Femtech APP" */ = {
+		657B674C2403104800BB43DA /* Build configuration list for PBXNativeTarget "SelfCare" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				657B674D2403104800BB43DA /* Debug */,
@@ -565,7 +597,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		657B674F2403104800BB43DA /* Build configuration list for PBXNativeTarget "Femtech APPTests" */ = {
+		657B674F2403104800BB43DA /* Build configuration list for PBXNativeTarget "SelfCareTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				657B67502403104800BB43DA /* Debug */,
@@ -574,7 +606,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		657B67522403104800BB43DA /* Build configuration list for PBXNativeTarget "Femtech APPUITests" */ = {
+		657B67522403104800BB43DA /* Build configuration list for PBXNativeTarget "SelfCareUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				657B67532403104800BB43DA /* Debug */,
